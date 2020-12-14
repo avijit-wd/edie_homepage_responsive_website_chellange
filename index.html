@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="#home" class="header__logo">Edie</a>
+        <ion-icon
+          name="menu-outline"
+          class="header__toggle"
+          id="nav-toggle"
+        ></ion-icon>
+        <nav class="nav" id="nav-menu">
+          <ion-icon
+            name="close-outline"
+            class="nav__close"
+            id="nav-close"
+          ></ion-icon>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link active">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#works" class="nav__link">Our Works</a>
+            </li>
+            <li class="nav__item">
+              <a href="#clients" class="nav__link">Clients</a>
+            </li>
+            <li class="nav__item">
+              <a href="#footer" class="nav__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="hero" id="home">
+          <div class="hero__content-1">
+            <p class="hero__text blue-text">Unhappy with your website?</p>
+            <h1 class="hero__heading">
+              We create beautiful and fast web services
+            </h1>
+          </div>
+          <div class="hero__img">
+            <img src="/assets/images/heroImage.jpg" alt="Hero image" />
+          </div>
+          <div class="hero__content-2">
+            <h1 class="hero__heading">Story, emotion and purpose</h1>
+            <p class="hero__text">
+              We help transform your ideas into real world applications that
+              will outperform your toughest competition and help you achieve
+              your strategic goals in short period of time.
+            </p>
+            <div class="hero__contact">
+              <small class="hero__contact-text">Want us to contact you?</small>
+              <div class="input-box">
+                <input
+                  type="text"
+                  class="hero__contact-input"
+                  placeholder="Email"
+                />
+                <input type="button" class="hero__contact-btn" value="Join" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="services" id="services">
+          <h1 class="heading">We offer high demand services</h1>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="card__icon card__icon-1">
+                <ion-icon name="pencil-outline"></ion-icon>
+              </div>
+              <h3 class="card__title">UI/UX Design</h3>
+              <p class="card__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+                metus ac nulla consequat aliquet id quis turpis.
+              </p>
+              <button class="card__btn">Get Sorted</button>
+            </div>
+
+            <div class="card">
+              <div class="card__icon card__icon-2">
+                <ion-icon name="code-outline"></ion-icon>
+              </div>
+              <h3 class="card__title">Front End</h3>
+              <p class="card__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+                metus ac nulla consequat aliquet id quis turpis.
+              </p>
+              <button class="card__btn">Get Sorted</button>
+            </div>
+
+            <div class="card">
+              <div class="card__icon card__icon-3">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+              <h3 class="card__title">Back End</h3>
+              <p class="card__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+                metus ac nulla consequat aliquet id quis turpis.
+              </p>
+              <button class="card__btn">Get Sorted</button>
+            </div>
+          </div>
+        </section>
+        <section class="works" id="works">
+          <h1 class="heading">Good design means good business</h1>
+          <div class="card-wrapper">
+            <div class="card card-1">
+              <div class="card__img">
+                <img src="/assets/images/juice-product.png" alt="product1" />
+              </div>
+              <small class="card__title">Full Stack Application</small>
+              <p class="card__text">Juice product homepage</p>
+            </div>
+
+            <div class="card card-2">
+              <div class="card__img">
+                <img src="/assets/images/onboard.png" alt="product2" />
+              </div>
+              <small class="card__title">Front End Application</small>
+              <p class="card__text">Onboard application</p>
+            </div>
+
+            <div class="card card-3">
+              <div class="card__img">
+                <img src="/assets/images/booking.png" alt="product3" />
+              </div>
+              <small class="card__title">Full Stack Application</small>
+              <p class="card__text">Booking system</p>
+            </div>
+
+            <div class="card card-4">
+              <div class="card__img">
+                <img src="/assets/images/smarthome.jpg" alt="product4" />
+              </div>
+              <small class="card__title">Static Website</small>
+              <p class="card__text">Smart home webpage</p>
+            </div>
+          </div>
+          <div class="link">
+            <a href="#"
+              ><span>see more</span>
+              <ion-icon name="arrow-forward-outline"></ion-icon
+            ></a>
+          </div>
+        </section>
+        <section class="team" id="team">
+          <div class="content">
+            <p class="content__text">Meet the team</p>
+            <h1 class="content__heading">We are chilled and a laidback team</h1>
+            <p class="content__paragraph">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </p>
+          </div>
+          <div class="gallery">
+            <img
+              src="/assets/images/person1.png"
+              alt="person1"
+              class="gallery__img gallery__img-1"
+            />
+            <img
+              src="/assets/images/person2.png"
+              alt="person2"
+              class="gallery__img gallery__img-2"
+            />
+            <img
+              src="/assets/images/person3.png"
+              alt="person3"
+              class="gallery__img gallery__img-3"
+            />
+          </div>
+        </section>
+        <section class="client" id="clients">
+          <h1 class="heading">
+            “Fast and outstanding resutls. Edie understands their customer’s
+            needs. They have a young and talented team.”
+          </h1>
+          <div class="card">
+            <div class="card__img">
+              <img src="/assets/images/person4.png" alt="client" />
+            </div>
+            <div class="card__details">
+              <h3>Carlos Tran</h3>
+              <p>The decorate Gatsby</p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer" id="footer">
+        <div class="footer-content">
+          <div class="footer-nav">
+            <ul class="footer-nav__list">
+              <li class="footer-nav__item">
+                <a href="#home" class="footer-nav__link">Home</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#services" class="footer-nav__link">Services</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#Our Works" class="footer-nav__link">works</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#client" class="footer-nav__link">Clients</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#footer" class="footer-nav__link">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="logo-box">
+            <h1 class="logo-box__heading">Edie</h1>
+            <div class="logo-box__social">
+              <ion-icon
+                name="logo-linkedin"
+                class="logo-box__social-icon"
+              ></ion-icon>
+              <ion-icon
+                name="logo-behance"
+                class="logo-box__social-icon"
+              ></ion-icon>
+              <ion-icon
+                name="logo-twitter"
+                class="logo-box__social-icon"
+              ></ion-icon>
+            </div>
+          </div>
+          <div class="footer__contact">
+            <small class="footer__contact-text">Want us to contact you?</small>
+            <div class="input-box">
+              <input
+                type="text"
+                class="footer__contact-input"
+                placeholder="Email"
+              />
+              <input type="button" class="footer__contact-btn" value="Join" />
+            </div>
+          </div>
+        </div>
+        <p class="footer__copyright">avijit@devchallenges.io</p>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
